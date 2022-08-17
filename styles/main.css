@@ -1,0 +1,109 @@
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+
+/* write your CSS here */
+
+.top-bg {
+  background-color: #6595ec;
+  height: 300px;
+}
+
+.card {
+  background-color: rgb(65, 65, 72);
+  max-width: 200px;
+  border-radius: 8px;
+  margin: 0 auto;
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 100px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-basis: 100%;
+  line-height: 90%;
+}
+
+.card > *,
+.box > * {
+  flex-basis: 100%;
+}
+
+.anakinImg {
+  flex-basis: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin: 25px 60px 5px 60px;
+}
+
+.number {
+  background-color: red;
+  flex-basis: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  position: relative;
+  top: -24px;
+  left: 121px;
+}
+
+.insta {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  flex-grow: 1;
+}
+
+.box {
+  background-color: #6595ec;
+  flex-grow: 1;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box2 {
+  background-color: #5781ce;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h6 {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  color: #c1d7ff;
+}
+
+p {
+  color: rgb(103, 155, 229);
+  text-align: center;
+  font-size: 10px;
+}
+
+button {
+  color: white;
+  margin: 20px 45px;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+  border: 3px solid white;
+}
